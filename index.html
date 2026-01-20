@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Séminaire Trading</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="thankYouMessage">
+        ✅ Merci pour votre réservation !  
+        <span>Votre ebook est en cours de téléchargement.</span>
+      </div>
+<header class="hero">
+
+  <div class="gift-link" onclick="openGift()">🎁 Cadeau</div>
+
+  <div class="top-bar">
+    <div class="date">
+      📅 02 FEVRIER 2026
+      <span>⏰ 4h de temps chaque weekend</span>
+    </div>
+
+    <img src="images/logo.jpeg" class="logo">
+
+    <div></div>
+  </div>
+
+  <div class="hero-grid">
+    <div class="hero-text">
+      <h1>FORMATION TRADING</h1>
+      <h2>Transforme l’analyse en opportunité</h2>
+      <p>Séminaire intensif pour comprendre les marchés financiers, maîtriser les techniques de trading et développer une psychologie gagnante.</p>
+      <p class="location">📍 Yaoundé – Nkolmesseng (face Institut Golden)</p>
+    </div>
+
+    <div class="hero-images">
+      <img src="images/trader-laptop.jpg">
+    </div>
+  </div>
+
+</header>
+
+<section>
+<h2 class="section-title">Objectifs du séminaire</h2>
+<div class="cards">
+  <div class="card"><i class="fas fa-chart-line"></i> Analyse approfondie des marchés financiers</div>
+  <div class="card"><i class="fas fa-building-columns"></i> Connaissance des bourses et leurs spécificités</div>
+  <div class="card"><i class="fas fa-coins"></i> Maîtrise des techniques de trading et de l’analyse technique</div>
+  <div class="card"><i class="fas fa-brain"></i> Psychologie du trader et money management</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Cibles</h2>
+<div class="cards">
+  <div class="card"><i class="fas fa-user-graduate"></i> Étudiants en finance et économie</div>
+  <div class="card"><i class="fas fa-award"></i> Jeunes diplômés</div>
+  <div class="card"><i class="fas fa-user-tie"></i> Toute personne sérieuse voulant apprendre le trading</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Modules de formation</h2>
+<div class="modules">
+  <div class="module">Analyse fondamentale</div>
+  <div class="module">Suite analyse fondamentale</div>
+  <div class="module">Analyse technique</div>
+  <div class="module">Suite analyse technique</div>
+  <div class="module">Stratégie de trading</div>
+  <div class="module">Psychologie du trader</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Débouchés</h2>
+<div class="badges">
+  <span class="badge">Trader Forex</span>
+  <span class="badge">Trader Crypto-actifs</span>
+  <span class="badge">Analyste financier</span>
+  <span class="badge">Gestionnaire de portefeuille</span>
+</div>
+</section>
+
+<section>
+    <h2 class="section-title">Détails de formation</h2>
+  
+    <div class="details-formation">
+      <div class="detail-box">
+        <i class="fas fa-pen-to-square"></i>
+        <h4>Inscription</h4>
+        <p>Ouverte – Places limitées</p>
+      </div>
+  
+      <div class="detail-box">
+        <i class="fas fa-money-bill-wave"></i>
+        <h4>Frais de formation</h4>
+        <p>À communiquer lors de la réservation</p>
+      </div>
+    </div>
+  
+    <div class="details-note">
+      Réservé aux personnes très occupées et n’ayant que peu de temps pour se former les samedis.
+      <br>
+      <strong>4 week-ends pour devenir un bon trader 😊</strong>
+    </div>
+  </section>
+  
+
+<div class="final-cta">
+  <h2>Tu veux participer ? Alors réserve ta place maintenant</h2>
+  <a id="reservation"
+  class="whatsapp"
+  href="javascript:void(0)"
+  onclick="handleReservation()">
+  <i class="fab fa-whatsapp"></i> Réserver via WhatsApp
+</a>
+
+</div>
+
+<section class="testimonials">
+  <div class="testimonial">
+    <img src="images/personne(1).jpg">
+    <p>“Une formation très claire et pratique, j’ai gagné en confiance.”</p>
+    <h4>Junior K.</h4>
+  </div>
+
+  <div class="testimonial">
+    <img src="images/personne (2).jpg">
+    <p>“Le module psychologie m’a vraiment ouvert les yeux.”</p>
+    <h4>Sarah M.</h4>
+  </div>
+</section>
+
+<div class="modal" id="giftModal">
+    <div class="modal-content">
+      <h3>🎁 Cadeau exclusif</h3>
+  
+      <p>
+        Repartez avec un <strong>Ebook exclusif</strong> comportant
+        <strong>les 5 erreurs à éviter en trading</strong> et
+        <strong>les 10 principes psychologiques d’un trader gagnant</strong>.
+        <br><br>
+        Pour plus d’informations,
+        <a href="#reservation"
+           onclick="closeGift()"
+           style="color:#f5c86a;font-weight:700;text-decoration:underline">
+           cliquez ici
+        </a>
+      </p>
+  
+      <div class="close" onclick="closeGift()">Fermer</div>
+    </div>
+  </div>
+  
+                     
+    <script src="script.js"></script>
+
+</body>
+</html>
