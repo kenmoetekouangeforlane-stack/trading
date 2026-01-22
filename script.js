@@ -21,8 +21,8 @@ setTimeout(() => {
 // 3️⃣ Télécharger le PDF après 4 secondes
 setTimeout(() => {
   const link = document.createElement("a");
-  link.href = "ebook-trading.docx";
-  link.download = "Ebook-Trading-Exclusif.docx";
+  link.href = "ebook_trading.docx";
+  link.download = "ebook_Trading.docx";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -34,3 +34,4 @@ setTimeout(() => {
 }, 7000);
 
 }
+
